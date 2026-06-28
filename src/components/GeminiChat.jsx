@@ -39,7 +39,7 @@ export default function GeminiChat() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/gemini",
+        " https://voltpath-xu7j.onrender.com/api/gemini",
         {
           message: userMessage,
         }
