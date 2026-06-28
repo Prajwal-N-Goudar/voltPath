@@ -16,7 +16,7 @@ export default function Login() {
       }
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        " https://voltpath-xu7j.onrender.com",
         {
           email,
           password,
