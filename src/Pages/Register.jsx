@@ -24,7 +24,7 @@ export default function Register() {
       }
 
       const res = await axios.post(
-        " https://voltpath-xu7j.onrender.com",
+        " https://voltpath-xu7j.onrender.com/api/auth/register",
         {
           name,
           email,
